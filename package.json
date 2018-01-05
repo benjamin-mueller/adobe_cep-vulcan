@@ -1,0 +1,27 @@
+{
+  "name": "vulcan-ts",
+  "version": "1.0.0",
+  "description": "TypeScript Implementation of Vulcan.js",
+  "main": "dist/vulcan-ts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "benjamin.mueller@burda.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "vulcan",
+    "adobe",
+    "cep",
+    "extension",
+    "plugin"
+  ],
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "bundleDependencies": false,
+  "typings": "/dist/vulcan-ts",
+  "module": "./esm5/common.js"
+}
